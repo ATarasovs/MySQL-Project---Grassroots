@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+.demo {
+	border:1px solid #C0C0C0;
+	border-collapse:collapse;
+	padding:5px;
+}
+.demo th {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	background:#F0F0F0;
+}
+.demo td {
+	border:1px solid #C0C0C0;
+	padding:5px;	
+}
+.field {
+	clear:both; 
+	text-align:right;
+	line-height:30px;
+	float:left;
+}
+.center
+{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding-top: 10px;
+    
+}
+
+input[type=search] {
+    float: right;
+}
+/* When the input field gets focus, change its width to 100% 
+input[type=search]:focus {
+    width: 100%;
+}*/
